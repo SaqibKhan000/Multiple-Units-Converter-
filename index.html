@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Unit Converter</h1>
+    <div class="box">
+
+        <div class="categories">
+            <select name="categories" id="categories">
+                <option value="weight">Weight</option>
+                <option value="temperature">Temperature</option>
+                <option value="distance">Distance</option>
+            </select>
+        </div>
+
+
+        <div class="display">
+            <input type="number" value="0" id="dis">
+        </div>
+
+        <div class="converter">
+            <select name="from" id="from">
+                <option value="">From</option>
+            </select>
+
+            <select name="to" id="to">
+                <option value="">To</option>
+            </select>
+        </div>
+
+        <div class="result">
+            <h4>✔ Result: <span id="res">...</span></h4>
+            <button onclick="calculate();">Calculate</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
