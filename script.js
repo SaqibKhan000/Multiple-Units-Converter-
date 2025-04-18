@@ -24,7 +24,7 @@ function setUnit() {
         to.appendChild(option2);
     });
 }
-categories.addEventListener("change", setUnit);
+categories.addEventListener("click", setUnit);
 
 
 
